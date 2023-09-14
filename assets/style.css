@@ -50,17 +50,30 @@ h1{
 .box:nth-child(6n) ~ .box {
     border-bottom: none;
 }
-button{
+button {
     padding: 10px 20px;
-    border-radius: 10px;
-    background-color: var(--orange);
-    color: #333;
-    border-color: var(--orange);
-    font-size: 18px;
-    transition: 200ms transform;
-    font-weight: 600;
-}
-button:hover {
-    cursor: pointer;
-    transform: translateY(-2px);
-}
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  .btn:hover{
+    color: #ffffff;
+    background: #f2c14e;
+    border: 1px solid #f2c14e;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #000000;
+    box-shadow: 0 0 5px #f2c14e,
+                0 0 20px #f2c14e,
+                0 0 50px #f2c14e,
+                0 0 100px #f2c14e;
+  }
